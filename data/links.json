@@ -1,0 +1,21 @@
+{
+    "links": [{
+            "title": "Título do Link",
+            "textcolor": "#000000",
+            "bgcolor": "#ffffff",
+            "faicon": "fa fa-eye",
+            "imgicon": "https://github.com/israelsousa21.png",
+            "urlredirect": "https://israelsousa.com.br",
+            "views": 0
+        },
+        {
+            "title": "Título2 do Link",
+            "textcolor": "#000000",
+            "bgcolor": "#ffffff",
+            "faicon": "fa fa-edit",
+            "imgicon": "https://github.com/israelsousa21.png",
+            "urlredirect": "https://israelsousa.com.br",
+            "views": 0
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+html,
+body {}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #f5f5f5;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: solid 2px #cccccc;
+}
+
+.minibio {
+    font-size: 13px;
+    line-height: 0.8;
+}
+
+.card-links {
+    width: 100%;
+    margin: 10px;
+}
+
+.link-card {
+    display: block;
+    width: 100%;
+    height: 45px;
+    background-color: aquamarine;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.card-links>a {
+    text-decoration: none;
+}
+
+.card-links>a:hover {
+    color: greenyellow;
+    background-color: blueviolet;
+}
+
+.form-signin {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+}
+
+.footer {
+    font-size: 12px;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
